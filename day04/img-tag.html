@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +9,18 @@
     <!-- ../는 한단계 위로 가는 명령어 -->
     <!-- 경로에 맞게 불러온 이미지
     src -> 경로를 뜻함 / alt -> 대체 텍스트를 뜻함, 사진이 깨졌을때 설명 할 수 있는 텍스트 -->
+    <!-- 내서버 (혹은 pc)에 파일을 갖고 있는 방식. -->
+    <!-- 안정적이나 서버의 용량을 차지하고 웹 접근시 트래픽 발생 -->
     <img src="../img/이병건2.jpg" alt="잘생긴 침착맨">
 
     <!-- 경로에 맞지 않게 불러온 이미지 -->
     <img src="이병건2.jpg" alt="잘생긴 침착맨">
 
-    <!--  -->
+    <!-- 외부 링크를 통해 이미지를 사용하는방식 -->
+    <!-- 링크변경, 삭제등으로 이미지 로드에 실패할 리스크가 있다. -->
+    <img src="https://i.namu.wiki/i/vQDr4Tb-rCJBwc0aRwKpPslfZYAyvT5qVFN4rC-ICasiHW3gOpJO910cHXk-F6oQDgrrmZInOvs0LfalobbcKT9gOLrYf4pJjzn-9obWqVuDiVPFchh074vZUgtoyemQLeDHQ32iz3b-wAGRMn75ow.webp" alt="깨팔">
+
+    <!-- 웹에 맞게 가공한 이미지는 용량이 크지 않기때문에 1번 방식을 주로 이용한다. -->
+    <!-- 영상은 외부에 올려서 링크 가져오고 이미지는 내가 직접 업로드 하는게 일반적인 방법이다. -->
 </body>
 </html>
